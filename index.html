@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Framework - Build Without Code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text">Startup</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="hover:text-blue-500 transition">Features</a>
+                <a href="#resources" class="hover:text-blue-500 transition">Resources</a>
+                <a href="#testimonials" class="hover:text-blue-500 transition">Testimonials</a>
+                <a href="#pricing" class="hover:text-blue-500 transition">Pricing</a>
+                <a href="#signup" class="hover:text-blue-500 transition">Sign Up</a>
+            </div>
+            <button class="md:hidden focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 md:py-32">
+        <div class="container mx-auto px-6 flex flex-col items-center text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Forget About Code</h1>
+            <p class="text-xl md:text-2xl text-gray-600 max-w-3xl leading-relaxed">
+                Startup Framework empowers your creative process — forget the technicalities. With no limitations and absolutely zero coding required, you're free to focus entirely on design.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#signup" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition duration-300 transform hover:scale-105">
+                    Get Started Free
+                </a>
+                <a href="#features" class="border border-gray-300 hover:border-blue-500 text-gray-700 hover:text-blue-600 px-8 py-3 rounded-full font-medium transition duration-300 transform hover:scale-105">
+                    Learn More
+                </a>
+            </div>
+            <div class="mt-16 w-full max-w-4xl mx-auto">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Dashboard preview" class="rounded-xl shadow-2xl border border-gray-200">
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section id="resources" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Free Sample Resources</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Get access to powerful design tools and free Figma sources. Startup Framework includes modular components and sophisticated UI blocks that integrate effortlessly into your projects.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Modular Components</h3>
+                    <p class="text-gray-600">
+                        Mix and match hundreds of components to create unique layouts without touching a single line of code.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="text-purple-500 text-4xl mb-4">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Consistent Design</h3>
+                    <p class="text-gray-600">
+                        All assets share a consistent design language, helping you build countless solutions with ease.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="text-green-500 text-4xl mb-4">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Figma Sources</h3>
+                    <p class="text-gray-600">
+                        Get direct access to our Figma files so you can customize every element to your exact needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">We Create Something New</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Introducing a revolutionary way for designers, developers, and startups to build websites — fast and hassle-free.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1636&q=80" alt="Features" class="rounded-xl shadow-lg">
+                </div>
+                
+                <div>
+                    <div class="space-y-8">
+                        <div class="flex">
+                            <div class="mr-6">
+                                <div class="flex items-center justify-center bg-blue-100 text-blue-600 rounded-full w-12 h-12">
+                                    <i class="fas fa-bolt text-xl"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">30 Brand-New Feature Pages</h3>
+                                <p class="text-gray-600">
+                                    From landing pages to complex dashboards, we've got templates for every use case.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="mr-6">
+                                <div class="flex items-center justify-center bg-purple-100 text-purple-600 rounded-full w-12 h-12">
+                                    <i class="fas fa-cubes text-xl"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Reusable Symbol Components</h3>
+                                <p class="text-gray-600">
+                                    Change one component and watch it update everywhere — a true design system.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="mr-6">
+                                <div class="flex items-center justify-center bg-green-100 text-green-600 rounded-full w-12 h-12">
+                                    <i class="fas fa-puzzle-piece text-xl"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Seamless UI Block Integration</h3>
+                                <p class="text-gray-600">
+                                    Complex UI blocks that work perfectly together right out of the box.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign-Up Form Section -->
+    <section id="signup" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-gradient-to-br from-blue-500 to-purple-600 p-10 text-white">
+                        <h2 class="text-3xl font-bold mb-4">Sign Up / Login</h2>
+                        <p class="mb-8">We solve digital problems with creative brilliance.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="mr-4 bg-white bg-opacity-20 p-2 rounded-full">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <p>Perfect for designers and developers</p>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="mr-4 bg-white bg-opacity-20 p-2 rounded-full">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <p>Launch websites quickly and professionally</p>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="mr-4 bg-white bg-opacity-20 p-2 rounded-full">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <p>Zero coding required</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-10">
+                        <form class="space-y-6">
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+                                <input type="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                                <input type="password" id="password" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                    Create an Account
+                                </button>
+                            </div>
+                        </form>
+                        <div class="mt-6">
+                            <div class="relative">
+                                <div class="absolute inset-0 flex items-center">
+                                    <div class="w-full border-t border-gray-300"></div>
+                                </div>
+                                <div class="relative flex justify-center text-sm">
+                                    <span class="px-2 bg-white text-gray-500">
+                                        Or Login via
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mt-6">
+                                <button class="w-full inline-flex justify-center items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                    <i class="fab fa-twitter text-blue-400 mr-2"></i>
+                                    Twitter
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Experience pixel-perfect, retina-ready design. Startup Framework makes your site look stunning across all modern devices.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="testimonial-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold mr-4">
+                            RC
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Rayhan Curran</h4>
+                            <p class="text-sm text-gray-500">CEO, WealthFront</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "As a business targeting high-net-worth individuals, we needed a slick, minimalist design — and Startup delivered."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 font-bold mr-4">
+                            KF
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Kayley Frame</h4>
+                            <p class="text-sm text-gray-500">Design Lead, PixelPerfect</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "The sample components helped us get started instantly. The design process became fun and intuitive."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-600 font-bold mr-4">
+                            GW
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Gene Whitfield</h4>
+                            <p class="text-sm text-gray-500">Founder, TechLaunch</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "I built my site in just one day with Startup. It was ready to launch without any hassle."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold mr-4">
+                            AK
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Allan Kim</h4>
+                            <p class="text-sm text-gray-500">Creative Director, PlayStudio</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Startup's sample layouts are the real MVPs — they make design feel like play."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-gradient py-20 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Get Started Easily</h2>
+            <p class="text-xl max-w-3xl mx-auto mb-10 opacity-90">
+                From setup to maintenance, Startup Framework is effortless to work with. Built on Bootstrap — the most powerful and widely-used front-end framework — it ensures your development experience is fast, responsive, and intuitive.
+            </p>
+            <a href="#signup" class="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg shadow-lg transform transition hover:scale-105">
+                <span class="mr-3">▶</span> Get Started
+            </a>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Plans & Pricing</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Startup Framework is free forever — you only pay for custom domain hosting or to export your site.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Starter Plan -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition flex flex-col">
+                    <h3 class="text-2xl font-bold mb-4">Starter</h3>
+                    <p class="text-3xl font-semibold mb-6">$9.99 <span class="text-base font-normal text-gray-500">/mo</span></p>
+                    <ul class="space-y-3 mb-8 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 2 GB of space</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 14 days of backups</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Social integrations</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Client billing</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Remote access</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Custom domain</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 24-hour support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Admin tools</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Collaboration tools</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> User management</li>
+                    </ul>
+                    <a href="#signup" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition duration-300 transform hover:scale-105 text-center">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Professional Plan -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition flex flex-col">
+                    <h3 class="text-2xl font-bold mb-4">Professional</h3>
+                    <p class="text-3xl font-semibold mb-6">$19.99 <span class="text-base font-normal text-gray-500">/mo</span></p>
+                    <ul class="space-y-3 mb-8 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 2 GB of space</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 14 days of backups</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Social integrations</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Client billing</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Remote access</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Custom domain</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 24-hour support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Admin tools</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Collaboration tools</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> User management</li>
+                    </ul>
+                    <a href="#signup" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition duration-300 transform hover:scale-105 text-center">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Team Plan -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition flex flex-col">
+                    <h3 class="text-2xl font-bold mb-4">Team</h3>
+                    <p class="text-3xl font-semibold mb-6">$49.99 <span class="text-base font-normal text-gray-500">/mo</span></p>
+                    <ul class="space-y-3 mb-8 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 2 GB of space</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 14 days of backups</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Social integrations</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Client billing</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Remote access</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Custom domain</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 24-hour support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Admin tools</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Collaboration tools</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> User management</li>
+                    </ul>
+                    <a href="#signup" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition duration-300 transform hover:scale-105 text-center">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 gradient-text">Startup</h3>
+                    <p class="text-gray-400">
+                        The revolutionary framework that lets you build beautiful websites without writing code.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Features</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Pricing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Templates</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Documentation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition text-xl"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition text-xl"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2023 Startup Framework. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
